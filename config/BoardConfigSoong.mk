@@ -44,7 +44,7 @@ SOONG_CONFIG_lineageGlobalVars += \
     target_health_charging_control_supports_deadline \
     target_health_charging_control_supports_toggle \
     target_init_vendor_lib \
-    target_ld_shim_libs \    
+    target_ld_shim_libs \
     target_needs_platform_text_relocations \
     target_process_sdk_version_override \
     target_surfaceflinger_udfps_lib \
