@@ -86,6 +86,23 @@ gralloc_10_usage_bits {
 }
 
 soong_config_module_type {
+    name: "target_needs_platform_text_relocations",
+    module_type: "cc_defaults",
+    config_namespace: "lineageGlobalVars",
+    bool_variables: ["target_needs_platform_text_relocations"],
+    properties: ["cppflags"],
+}
+
+target_needs_platform_text_relocations {
+    name: "target_needs_platform_text_relocations_defaults",
+    soong_config_variables: {
+        target_needs_platform_text_relocations : {
+                cppflags: ["-DTARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS"],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "target_process_sdk_version_overrides",
     module_type: "cc_defaults",
     config_namespace: "lineageGlobalVars",
