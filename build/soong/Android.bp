@@ -113,7 +113,7 @@ soong_config_module_type {
 target_allows_invalid_pthread {
     name: "target_allows_invalid_pthread_defaults",
     soong_config_variables: {
-        target_needs_platform_text_relocations : {
+        target_allows_invalid_pthread_defaults : {
                 cppflags: ["-DALLOWS_INVALID_PTHREAD"],
         },
     },
