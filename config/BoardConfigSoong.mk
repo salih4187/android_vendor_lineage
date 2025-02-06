@@ -44,7 +44,7 @@ SOONG_CONFIG_lineageGlobalVars += \
     target_health_charging_control_supports_deadline \
     target_health_charging_control_supports_toggle \
     target_init_vendor_lib \
-    target_ld_shim_libs \    
+    target_ld_shim_libs \
     target_needs_platform_text_relocations \
     target_process_sdk_version_override \
     target_surfaceflinger_udfps_lib \
@@ -81,7 +81,7 @@ SOONG_CONFIG_lineageGlobalVars_has_memfd_backport := $(TARGET_HAS_MEMFD_BACKPORT
 SOONG_CONFIG_lineageGlobalVars_ignores_ftp_pptp_conntrack_failure := $(TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE)
 SOONG_CONFIG_lineageGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_lineageGlobalVars_needs_netd_direct_connect_rule := $(TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE)
-SOONG_CONFIG_lineageGlobalVars_needs_platform_text_relocations := $(TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS)
+SOONG_CONFIG_lineageGlobalVars_target_needs_platform_text_relocations := $(TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS)
 SOONG_CONFIG_lineageGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_lineageNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_lineageQcomVars_legacy_hw_disk_encryption := $(TARGET_LEGACY_HW_DISK_ENCRYPTION)
